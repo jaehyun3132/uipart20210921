@@ -37,7 +37,28 @@
         android:hint="한 줄로 입력하시오"
         android:singleLine="true"
         android:imeOptions="actionGo"/>
-<CheckBox
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="남자"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여자"/>
+    <RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="선택안함"/>
+
+</RadioGroup>
+
+    <CheckBox
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="false"
